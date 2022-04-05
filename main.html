@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="./static/css/style.css" type="text/css" />
+    <script src="./static/script/index.js" type="text/javascript"></script>
+    <title>Nộp thuế cá nhân</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="banner">
+        <div class="logo">
+          <img src="./static/images/logo.png" />
+          <img src="./static/images/sitename.png" />
+        </div>
+        <div class="dangnhap">
+          <span class="button_login">
+            <strong>Xin chào:</strong>
+          </span>
+
+          <span class="button_login">
+            <strong>Đăng xuất</strong>
+          </span>
+        </div>
+      </div>
+      <div id="tabs" class="menu">
+        <ul id="tabmenu">
+          <li>
+            <a class="tab current" href="./trangchu.html" target="mainframe"
+              ><span>Trang chủ</span></a
+            >
+          </li>
+          <li>
+            <a class="tab" href="./chontokhai.html" target="mainframe"
+              ><span>Kê khai thuế</span></a
+            >
+          </li>
+          <li>
+            <a class="tab" href="./nopthue.html" target="mainframe"
+              ><span>Nộp thuế</span></a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="khungNoiDung" id="khungNoiDung">
+        <div class="noidung">
+          <div class="khungnhaplieu">
+            <iframe
+              id="mainframe"
+              name="mainframe"
+              src=""
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
