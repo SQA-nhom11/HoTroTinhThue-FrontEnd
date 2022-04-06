@@ -1,4 +1,12 @@
- .form-cover-register, .form-cover-login {
+ .frame{
+    width: 930px;
+    margin: 0 auto;
+    padding: 0px 0px 20px 0px;
+    border: solid;
+    border-width: 0px 0.5px 0.5px 0.5px;
+    border-color:#b9deff ;
+ }
+ .form-cover-register, .form-cover-login{
     width: 930px;
     margin: 0 auto;
 }
@@ -10,35 +18,38 @@
     border-radius: 10px;
     border: solid 0.5px #b9deff;
     box-sizing: content-box;
-    width: 400px;
+    width: 350px;
     margin: 0 auto;
-    /* position: relative;
-    left: 450px;
-    right: 400px; */
 }
 .form-cover-content{
-    width: 400px;
+    width: 350px;
     margin: 0 auto;
 
 }
 .form-cover h3{
     font-size: 15px;
+    font-weight: bolder;
     border-radius: 10px 10px 0px 0px;
     margin-top: 0;
     padding-top: 3px ;
     padding-bottom: 3px ;
     padding-left: 15px;
     color: white;
-    background-image: url(../image/anhnen.jpg);
+    background-image: url(../images/anhnen.jpg);
     background-repeat: repeat-x;
     background-position: top;
+}
+.form-cover-register h3{
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 2px, 0px;
 }
 .form_table .input_text,.inputBtn{
     padding: 2px 4px 1px 6px;
     margin-bottom: 5px;
     margin-left: 10px;
     font-size: 13px;
-    color: black;
+    color: #404040;
     border: solid 0.5px hsl(208, 90%, 53%);
     border-radius:0;
     display: table-cell;
@@ -51,7 +62,7 @@
     background: -o-linear-gradient(#d5eafa, #f1faff);
     background: -moz-linear-gradient(#d5eafa, #f1faff);
     background: linear-gradient(#d5eafa, #f1faff);
-    border-radius: 3px;
+    border-radius: 10px;
 }
 .title-register{
     font-size: 15px;
@@ -60,4 +71,66 @@
 }
 .color_red{
     color: red;
+}
+
+.logo {
+    height: 100px;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+.logo img {
+    float: left;
+    margin-right: 15px;
+}
+.dangnhap {
+    margin-bottom: 20px;
+    width: auto;
+    float: right;
+}
+
+.button_thue {
+    border-radius: 10px;
+    border: solid 1px #b9deff;
+    box-sizing: content-box;
+    background: -webkit-linear-gradient(#4891c9b0, #f1faff);
+    background: -o-linear-gradient(#d5eafa, #f1faff);
+    background: -moz-linear-gradient(#d5eafa, #f1faff);
+    background: linear-gradient(#23c1cf8a, #f1faff);
+    padding: 4px 10px;
+    margin-right: 5px;
+    margin-top: 100px;
+    font-size: 12px;
+    color: #124977;
+    cursor: pointer;
+}
+
+.navbar-expand-lg{
+    height: 35px;
+    background-image: url(../images/anhnen.jpg); 
+    background-repeat: repeat-x;
+    background-position: top;
+    width: 930px;
+    margin: 0 auto;
+}
+.navbar-expand-lg .nav-item .nav-link{
+    font-weight: bolder;
+    color: white;
+    font-size: 15px;
+
+}
+.banner{
+    background: -webkit-linear-gradient(#d5eafa, #f1faff);
+    background: -o-linear-gradient(#d5eafa, #f1faff);
+    background: -moz-linear-gradient(#d5eafa, #f1faff);
+    background: linear-gradient(#d5eafa, #f1faff);
+    width: 930px;
+    margin: 0 auto;
+    height: 150px;
+}
+.row {
+    width: 930px;
+    margin: 0 auto;
+}
+.xam {
+    color: #545353;
 }
